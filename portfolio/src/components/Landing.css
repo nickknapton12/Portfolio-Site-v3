@@ -1,0 +1,240 @@
+.container {
+  text-align: center;
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  transform: translateY(-56px);
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.window {
+  height: 54vh;
+  width: 85%;
+  background-color: white;
+  margin: auto;
+  margin-top: 30%;
+  border-radius: 10px;
+  border: 4px solid rgb(231,231,231);
+box-shadow: -2px 2px 90px 11px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px 2px 90px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 2px 90px 11px rgba(0,0,0,0.75);
+}
+
+.windowHeader {
+  width: 100%;
+  height: 10%;
+  background-color: rgb(231,231,231);
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.dot {
+  align-self: flex-start;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  margin: auto 0 auto 0;
+}
+
+.dotContainer {
+  width: 60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.searchbar {
+  align-self: center;
+  width: 55%;
+  height: 70%;
+  background-color: white;
+  border-radius: 6px;
+  margin: auto 0 auto 2%;
+  display: flex;
+  justify-content: start;
+}
+
+.searchbarText {
+  font-size: 12px;
+  align-self: center;
+  margin-left: 2%;
+}
+
+.barContainer {
+  height: fit-content;
+  margin: auto 0 auto 0;
+  width: auto;
+}
+
+.bar {
+  height: 3px;
+  width: 22px;
+  background-color: rgb(170,170,170);
+  margin: 5px 0 5px 0;
+}
+
+.windowContent {
+  height: 90%;
+  width: 100%;
+}
+
+.windowTitle {
+  font-size: 37px;
+  margin: 10% 0 6% 0;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.windowSubtitle {
+  font-family: 'Abel', sans-serif;
+  font-size: 25px;
+  text-align: start;
+  margin: 0 0 13% 8%;
+}
+
+.windowDescription {
+  font-family: 'Abel', sans-serif;
+  text-align: start;
+  margin: auto 0 auto 0%;
+}
+
+.material-icons {
+  font-size: 35px;
+}
+
+.windowDescriptionContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 10% auto 13% auto;
+  justify-content: center;
+}
+
+@media screen and (min-width: 750px) {
+  .window {
+    height: 60vh;
+    width: 85%;
+    margin-top: 20%;
+  }
+
+  .searchbar {
+    width: 75%;
+    height: 80%;
+  }
+
+  .searchbarText {
+    font-size: 20px;
+    align-self: center;
+  }
+
+  .windowTitle {
+    font-size: 45px;
+    margin: 7% 0 5% 0;
+  }
+
+  .windowSubtitle {
+    font-size: 30px;
+    margin: 0 0 11% 12%;
+  }
+
+  .windowDescription {
+    margin: auto 0 auto 0%;
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .window {
+    height: 65vh;
+    width: 75%;
+    margin-top: 20%;
+  }
+
+  .windowTitle {
+    margin: 7% 0 6% 0;
+  }
+
+  .windowSubtitle {
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    text-align: start;
+    margin: 0 0 10% 14%;
+  }
+
+  .windowDescription {
+    font-family: 'Abel', sans-serif;
+    text-align: start;
+    margin: auto 0 auto 0%;
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .window {
+    width: 65%;
+    height: 70vh;
+    margin-top: 13%;
+  }
+
+  .windowTitle {
+    font-size: 55px;
+    margin: 6% 0 4% 0;
+  }
+
+  .windowSubtitle {
+    font-family: 'Abel', sans-serif;
+    font-size: 34px;
+    text-align: start;
+    margin: 0 0 9% 14%;
+  }
+
+  .windowDescription {
+    margin: auto 0 auto 0%;
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .window {
+    width: 55%;
+    height: 75vh;
+    margin-top: 8%;
+  }
+
+  .searchbar {
+    width: 75%;
+    height: 80%;
+  }
+
+  .barContainer {
+    width: 10%;
+  }
+
+  .bar {
+    height: 3px;
+    width: 22px;
+    background-color: rgb(170,170,170);
+    margin: 5px auto 5px auto;
+  }
+
+  .windowTitle {
+    font-size: 55px;
+    margin: 6% 0 5% 0;
+  }
+
+  .windowSubtitle {
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    text-align: start;
+    margin: 0 0 5% 14%;
+  }
+
+  .windowDescription {
+    margin: auto 0 auto 0%;
+    font-size: 40px;
+  }
+}

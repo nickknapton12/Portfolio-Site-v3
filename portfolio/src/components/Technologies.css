@@ -1,0 +1,63 @@
+.technologiesPage {
+    height: auto;
+    width: 90%;
+    margin: 10% auto 0 auto;
+}
+
+.technologyHeaders{
+    color: White;
+    font-family: Abel;
+    text-align: center;
+}
+
+.technologyIcon {
+    width: 70%;
+    margin: 0n auto 0 auto;
+    align-self: center;
+}
+
+.technologiesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.technology {
+    min-width: 100px;
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.technologyHeader{
+    color: White;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    margin: 0 0 5vh 0;
+}
+
+@media screen and (min-width: 850px){
+    .technologyHeader{
+        font-size: 40px;
+    }
+
+    .technologyHeaders{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1350px){
+    .technologyHeader{
+        font-size: 50px;
+        margin: 0 0 10vh 0;
+    }
+
+    .technologyHeaders{
+        font-size: 30px;
+    }
+}

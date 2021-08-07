@@ -1,0 +1,45 @@
+.contactPage {
+    margin: 20% 0 20% 0;
+}
+
+.contactDescription {
+    color: White;
+    font-family: Abel;
+    text-align: center;
+    font-size: 25px;
+}
+
+.githubIcon {
+    height: 52px;
+}
+
+.contactLabel {
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    margin: 0 0 0 5%;
+}
+
+.chip{
+    width: 170px;
+    height: 70px;
+}
+
+.chipContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (min-width: 850px){
+    .contactDescription {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .contactDescription {
+        font-size: 35px;
+    }
+}
