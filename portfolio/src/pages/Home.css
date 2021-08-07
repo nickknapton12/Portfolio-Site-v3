@@ -4,6 +4,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+.title:hover {
+  cursor: pointer;
+}
+
 .header {
   --background: rgb(1,16,66);
   --border-color: rgb(1,16,66);

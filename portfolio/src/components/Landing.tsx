@@ -4,7 +4,7 @@ interface ContainerProps { }
 
 const Landing: React.FC<ContainerProps> = () => {
   return (
-      <div className="container">
+      <div className="container" id="aboutPage">
         <div className="window">
           <div className="windowHeader">
             <div className="dotContainer">

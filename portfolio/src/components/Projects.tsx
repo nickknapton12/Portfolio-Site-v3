@@ -17,7 +17,7 @@ interface ContainerProps {}
 
 const Projects: React.FC<ContainerProps> = () => {
   return (
-    <div className="projectsPage">
+    <div className="projectsPage" id="projectPage">
       <h1 className="technologyHeader font-effect-3d-float">
         Some of my recent projects!
       </h1>

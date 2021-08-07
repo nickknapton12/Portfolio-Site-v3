@@ -1,6 +1,7 @@
 .projectsPage {
     height: auto;
-    margin: 10vh auto 0 auto;
+    margin: 0 auto 0 auto;
+    padding-top: 10vh;
     width: 90%;
 }
 

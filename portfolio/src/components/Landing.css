@@ -3,7 +3,8 @@
   height: auto;
   width: 100%;
   background-size: cover;
-  transform: translateY(-56px);
+  transform: translateY(-90px);
+  padding-top: 1vh;
 }
 
 .container a {

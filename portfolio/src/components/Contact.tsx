@@ -5,7 +5,7 @@ interface ContainerProps {}
 
 const Contact: React.FC<ContainerProps> = () => {
   return (
-    <div className="contactPage">
+    <div className="contactPage" id="contactPage">
       <h1
         style={{ marginBottom: `4%` }}
         className="technologyHeader font-effect-3d-float"
