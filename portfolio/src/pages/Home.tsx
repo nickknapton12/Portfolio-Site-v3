@@ -16,7 +16,7 @@ const Home: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar className="header">
+        <IonToolbar mode="md" className="header">
             <IonButtons slot="start">
               <IonTitle className="title" onClick={() => document.getElementById('projectPage')?.scrollIntoView({ behavior:"smooth" })}>Projects</IonTitle>
           </IonButtons>

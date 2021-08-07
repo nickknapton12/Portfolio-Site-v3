@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "homepage": "https://nicholasknapton.tech/",
+
   "dependencies": {
     "@capacitor/app": "1.0.2",
     "@capacitor/core": "3.1.2",
