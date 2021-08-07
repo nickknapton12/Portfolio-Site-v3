@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.0.1",
   "private": true,
-  "homepage": "http://nicholasknapton.tech",
+  "homepage": "https://nickknapton12.github.io/Ionic-Portfolio/",
   "dependencies": {
     "@capacitor/app": "1.0.2",
     "@capacitor/core": "3.1.2",
