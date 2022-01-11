@@ -12,6 +12,7 @@ import project1 from "../assets/project1.jpg";
 import project2 from "../assets/project2.jpg";
 import project3 from "../assets/project3.jpg";
 import project4 from "../assets/project4.jpg";
+import project5 from "../assets/project5.jpg";
 
 interface ContainerProps {}
 
@@ -76,6 +77,24 @@ const Projects: React.FC<ContainerProps> = () => {
             system is responsible for recieving data from various sensors on the
             car and displaying them in a meaningfull way, along with providing
             access for navigation, climate, etc.
+          </IonCardContent>
+        </IonCard>
+        <IonCard
+          className="projectCard"
+          button
+          target="_blank"
+          href="https://github.com/nickknapton12/SWESeek"
+        >
+          <img src={project5} />
+          <IonCardHeader>
+            <IonCardSubtitle>React, Python, MySQL</IonCardSubtitle>
+            <IonCardTitle>SWEseek</IonCardTitle>
+          </IonCardHeader>
+          <IonCardContent>
+            SWEseek is an application myself and 2 teammates built to ease the software engg internship
+            process. It can track jobs using an easy drag and drop system, help
+            you find job postings, let you discover user reported salarys,
+            and provide you with helpful learning resources.
           </IonCardContent>
         </IonCard>
         <IonCard
