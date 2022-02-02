@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://nicholasknapton.tech/",
+  "homepage": "https://nicholasknapton.ca/",
 
   "dependencies": {
     "@capacitor/app": "1.0.2",
