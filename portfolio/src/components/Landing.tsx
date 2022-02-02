@@ -13,7 +13,7 @@ const Landing: React.FC<ContainerProps> = () => {
               <div className="dot" style={{backgroundColor:`green`}}></div>
             </div>
             <div className="searchbar">
-              <p className="searchbarText">www.nicholasknapton.tech</p>
+              <p className="searchbarText">www.nicholasknapton.ca</p>
             </div>
             <div className="barContainer">
               <div className="bar"></div>
