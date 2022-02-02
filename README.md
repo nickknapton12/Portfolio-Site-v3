@@ -1,3 +1,3 @@
 # Portfolio-Site-v3
 
-www.nicholasknapton.tech
+www.nicholasknapton.ca
